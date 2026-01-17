@@ -13,9 +13,9 @@ This project applies a standard time-series forecasting workflow to monthly Aust
 SNAIVE is a strong, interpretable seasonal baseline. Residual autocorrelation and large peak-month errors indicate remaining structure, motivating richer models (ETS/ARIMA or regression with seasonal/event effects) for production-grade forecasting.
 
 ## How to run
-1) Place `retail.xlsx` in `data/`.
-2) Run `scripts/australian_retail_snaive_backtest.R`
+1) Place `retail.xlsx` in `Data/`.
+2) Run `scripts/australian-monthly-sales-forecasting.R`
 
-## Outputs
-- Figures saved to `outputs/figures/`
-- Tables saved to `outputs/tables/`
+## Output
+- Figures saved to `output/figures/`
+
